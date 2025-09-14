@@ -7,7 +7,7 @@ int main(){
     for(r=0;r<2;r++){
         for (c= 0; c<3; c++)
         {   
-            printf("Enter [%d][%d] element:");
+            printf("Enter [%d][%d] element:",r,c);
             scanf("%d",&arr[r][c]);
         }
     }
