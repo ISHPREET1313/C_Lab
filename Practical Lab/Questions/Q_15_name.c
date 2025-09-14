@@ -13,15 +13,18 @@ int main(){
     //     printf("%c",full_name[i]);
     // }
 
-    char user_name[15];
+    char user_name[100];
+    int i;
     printf("Enter name:");
 
-    for(int i=0;i<15;i++){
+    for(i=0;i<100;i++){
         scanf("%c",&user_name[i]);
+        if (user_name[i] == '\n') {
+            break;
+        }
     }
-
-    for (int i =0; i<15;i++){
-       printf("%s",user_name[i]);
+    for (int j=0;j<i;j++){
+       printf("%c",user_name[j]);
     }
 
     return 0;
