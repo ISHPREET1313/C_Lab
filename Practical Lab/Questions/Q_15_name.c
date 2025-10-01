@@ -14,18 +14,11 @@ int main(){
     // }
 
     char user_name[100];
-    int i;
+    
     printf("Enter name:");
-
-    for(i=0;i<100;i++){
-        scanf("%c",&user_name[i]);
-        if (user_name[i] == '\n') {
-            break;
-        }
-    }
-    for (int j=0;j<i;j++){
-       printf("%c",user_name[j]);
-    }
+    scanf("%20s",user_name);
+    printf("%s",user_name);
+   
 
     return 0;
 }
