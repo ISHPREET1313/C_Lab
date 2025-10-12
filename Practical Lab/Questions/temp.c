@@ -22,7 +22,8 @@ int main(){
         printf("First = %d", x++);
     }
     printf("\nsecond = %d",x); 
- }
+}
+
 void add(int x,int y)
 {
     int sum;
