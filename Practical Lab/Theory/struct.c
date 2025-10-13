@@ -8,11 +8,23 @@ struct Student
 };
 
 int main(){
+    // int num;
+    // printf("how many studeents to add:");
+    // scanf("%d",&num);
+    int id;
+    char name[50];
+    float marks;
     struct Student student1;
-    student1.sap=100234;
-    strcpy(student1.name,"Sam");
-    student1.marks=93;
-
+    printf("Enter name:");
+    scanf("%s",name);
+    printf("Enter id:");
+    scanf("%d",&id);
+    printf("Enter marks:");
+    scanf("%f",&marks);   
+    
+    student1.sap=id;
+    student1.marks=marks;
+    strcpy(student1.name,name);
     printf("SAP id : %d\n",student1.sap);
     printf("Name : %s\n",student1.name);
     printf("Marks : %.2f\n",student1.marks);
