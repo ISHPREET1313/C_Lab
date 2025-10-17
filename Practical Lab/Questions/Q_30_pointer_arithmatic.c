@@ -1,4 +1,5 @@
 //Perform pointer arithmetic (increment and decrement) on pointers of different data types. Observe how the memory addresses change and the effects on data access.
+
 #include<stdio.h>
 
 int main(){
@@ -13,14 +14,11 @@ int main(){
     printf("Pointer b points to value %f\n",*b);
     printf("\nIncrementing a\n");
     printf("Decrementing b\n");
-    *a++;
+    b--;
     a++;
-    *b--;
-    // (*a)++;
-    // (*b)--;
     printf("Value of pointer a is %d\n",a);
     printf("Value of pointer b is %d\n",b);
     printf("Pointer a points to value %d\n",*a);
-    printf("Pointer b points to value %d\n",*b);
+    printf("Pointer b points to value %f\n",*b);
     return 0;
 }
