@@ -6,7 +6,7 @@ int main(){
     int **q=&p;
     printf("Address of x %p\n",&x);
     printf("Address of p %p\n",&p);
-    // printf("Address of q %p\n\n",&q);
+    printf("Address of q %p\n\n",&q);
 
     printf("value of x is %d\n",x);
     printf("value of p is %p\n",p);
