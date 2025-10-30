@@ -7,6 +7,8 @@ struct Student{
 
 int main(){ 
     s1.rollno=101;
+    
+    
     strcpy(s1.name,"Ishpreet");
     printf("%d",sizeof(struct Student));
     return 0;

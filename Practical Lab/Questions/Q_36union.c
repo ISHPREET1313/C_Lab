@@ -13,6 +13,7 @@ union address{
 };
 int main(){
     union address present_address;
+
     strcpy(present_address.name,"Ishpreet Singh");
     printf("%s ,",present_address.name);
     strcpy(present_address.home_address,"Ludhiana");
@@ -25,6 +26,26 @@ int main(){
     printf(" %s ,",present_address.state);
     strcpy(present_address.zip,"248007");
     printf(" %s",present_address.zip);
-    
+
+    // char t_name[25],t_home_address[50],t_hostel_address[50],t_city[25],t_state[25],t_zip[10];
+    // fgets(t_name,25,stdin);
+    // fgets(t_home_address,25,stdin);
+    // fgets(t_hostel_address,25,stdin);
+    // fgets(t_city,25,stdin);
+    // fgets(t_state,25,stdin);
+    // fgets(t_zip,25,stdin);
+    // printf("\nPresent Address:\n");
+    // strcpy(present_address.name,t_name);
+    // printf("%s",present_address.name);
+    // strcpy(present_address.home_address,t_home_address);
+    // printf("%s",present_address.home_address);
+    // strcpy(present_address.hostel_address,t_hostel_address);
+    // printf("%s",present_address.hostel_address);
+    // strcpy(present_address.city,t_city);
+    // printf("%s",present_address.city);
+    // strcpy(present_address.state,t_state);
+    // printf("%s",present_address.state);
+    // strcpy(present_address.zip,t_zip);
+    // printf("%s",present_address.zip);
     return 0;
 }
